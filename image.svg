@@ -72,7 +72,7 @@
                     color: #534DF9;
                 }
 
-                @keyframes @-webkit-keyframes move {
+                @-webkit-keyframes move {
                     25% { 
                         transform: translatey(-2.6rem); 
                         -webkit-transform: translatey(-2.6rem); 
@@ -87,14 +87,14 @@
                     }
                 }
 
-                @keyframes @-webkit-keyframes white-out {
+                @-webkit-keyframes white-out {
                     0% { opacity: 1; }
                     5% { opacity: 1; }
                     75% { opacity: 1; }
                     90% { opacity: 0; }
                 }
 
-                @keyframes blink {
+                @-webkit-keyframes blink {
                     0% { opacity: 1; }
                     50% { opacity: 0; }
                     100% { opacity: 1; }

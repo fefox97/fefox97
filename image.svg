@@ -1,123 +1,123 @@
-<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 400 30" width="400" height="30" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
-<div xmlns="http://www.w3.org/1999/xhtml">
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-    .titleText {
-        font-family:'Montserrat';
-        text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
-    }
-    .container {
-        color: #e5e5e5;
-        /* font-size: 24pt; */
-        font-size: 4vw;
-        text-transform: uppercase;
-        height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        /* width: 100%; */
-        /* background-color: #1e1e1e; */
-    }
+                .titleText {
+                    font-family:'Montserrat';
+                    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+                }
+                .container {
+                    color: #e5e5e5;
+                    /* font-size: 24pt; */
+                    text-transform: uppercase;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    /* width: 100%; */
+                    /* background-color: #1e1e1e; */
+                }
 
-    .titleHandAnimation{
-        position: relative;
-        animation: hand-animation 1s infinite;
-    }
+                .titleHandAnimation{
+                    position: relative;
+                    animation: hand-animation 1s infinite;
+                }
 
-    @keyframes hand-animation{
-        0% {left: 0px; transform: rotate(0deg); -webkit-transform: rotate(0deg);}
-        50% {left: 2px; transform: rotate(20deg); -webkit-transform: rotate(20deg);}
-        100% {left: 0px; transform: rotate(0deg); -webkit-transform: rotate(0deg);}
-    }
+                @keyframes hand-animation{
+                    0% {left: 0px; transform: rotate(0deg); -webkit-transform: rotate(0deg);}
+                    50% {left: 2px; transform: rotate(20deg); -webkit-transform: rotate(20deg);}
+                    100% {left: 0px; transform: rotate(0deg); -webkit-transform: rotate(0deg);}
+                }
 
-    .titleSlideAnimation {
-        margin-bottom: 2.1vw;
-        height: 8vw;
-        overflow: hidden;
-        margin-left: 1rem;
-    }
+                .titleSlideAnimation {
+                    <!-- margin-bottom: -0.5rem; -->
+                    height: 1.65rem;
+                    overflow: hidden;
+                    margin-left: 1rem;
+                    <!-- background-color: white; -->
+                }
 
-    .titleSlideAnimation > div > div {
-        padding: 0.25rem 0.75rem;
-        /* height:2.91rem; */
-        margin-bottom: 2vw;
-        display:inline-block;
-    }
+                .titleSlideAnimation > div > div {
+                    padding: 0.25rem 0.75rem;
+                    <!-- height: 2rem; -->
+                    margin-bottom: 1rem;
+                    display:inline-block;
+                }
 
-    .titleSlideAnimation div:first-child {
-        animation: text-animation 10s infinite;
-    }
+                .titleSlideAnimation div:first-child {
+                    animation: text-animation 10s infinite;
+                }
 
-    .first div {
-        background-color:#3f826d;
-        }
-    .second div {
-        background-color:#21459A;
-    }
-    .third div {
-        background-color:#c10528;
-    }
+                .first div {
+                    background-color:#3f826d;
+                    }
+                .second div {
+                    background-color:#21459A;
+                }
+                .third div {
+                    background-color:#c10528;
+                }
 
-    @keyframes text-animation {
-        0% {margin-top: 0;}
-        10% {margin-top: 0;}
-        20% {margin-top: -8.2vw;}
-        30% {margin-top: -8.2vw;}
-        40% {margin-top: -17.7vw;}
-        60% {margin-top: -17.7vw;}
-        70% {margin-top: -8.2vw;}
-        80% {margin-top: -8.2vw;}
-        90% {margin-top: 0;}
-        100% {margin-top: 0;}
-    }
+                @keyframes text-animation {
+                    0% {margin-top: 0;}
+                    10% {margin-top: 0;}
+                    20% {margin-top: -2.2rem;}
+                    30% {margin-top: -2.2rem;}
+                    40% {margin-top: -4.7rem;}
+                    60% {margin-top: -4.7rem;}
+                    70% {margin-top: -2.2rem;}
+                    80% {margin-top: -2.2rem;}
+                    90% {margin-top: 0;}
+                    100% {margin-top: 0;}
+                }
 
-    .animate-charcter
-    {
-        text-transform: uppercase;
-        background-image: linear-gradient(
-            -225deg,
-            #231557 0%,
-            #44107a 29%,
-            #ff1361 67%,
-            #fff800 100%
-        );
-        background-size: auto auto;
-        background-clip: border-box;
-        background-size: 200% auto;
-        color: #fff;
-        background-clip: text;
-        text-fill-color: transparent;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: textclip 2s linear infinite;
-        display: inline-block;
-        font-size: 19px;
-    }
+                .animate-charcter
+                {
+                    text-transform: uppercase;
+                    background-image: linear-gradient(
+                        -225deg,
+                        #231557 0%,
+                        #44107a 29%,
+                        #ff1361 67%,
+                        #fff800 100%
+                    );
+                    background-size: auto auto;
+                    background-clip: border-box;
+                    background-size: 200% auto;
+                    color: #fff;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    animation: textclip 2s linear infinite;
+                    display: inline-block;
+                    font-size: 19px;
+                }
 
-    @keyframes textclip {
-        to {
-            background-position: 200% center;
-        }
-    }
+                @keyframes textclip {
+                    to {
+                        background-position: 200% center;
+                    }
+                }
 
-</style>
+            </style>
 
-<!-- <div style="text-align:center;">
-    <span class="animate-charcter">
-        Hi, I'm Felice!
-    </span>
-</div> -->
+            <!-- <div style="text-align:center;">
+                <span class="animate-charcter titleText">
+                    Hi, I'm Felice!
+                </span>
+            </div> -->
 
-<div class="container titleText">
-    <p>Hello <span class="titleHandAnimation">👋</span> I'm</p>
-    <section class="titleSlideAnimation">
-        <div class="first"><div>Felice Moretta</div></div>
-        <div class="second"><div>Computer Engineer</div></div>
-        <div class="third"><div>Systems Engineer</div></div>
-    </section>
-</div>
- </div>
-</foreignObject>
+            <div class="container titleText" style="background-color=white;">
+                <text>Hello <text class="titleHandAnimation">👋</text> I'm</text>
+                <section class="titleSlideAnimation">
+                    <div class="first"><div>Felice Moretta</div></div>
+                    <div class="second"><div>Software Engineer</div></div>
+                    <div class="third"><div>Systems Engineer</div></div>
+                </section>
+            </div>
+        </div>
+    </foreignObject>
 </svg>

@@ -21,7 +21,7 @@
                     justify-content: center;
                     height: 40px;
                     width: 450px;
-                    position: relative;
+                    <!-- position: relative; -->
                     <!-- margin: 0 2rem; -->
                     overflow: hidden;
                     <!-- background: white; -->
@@ -35,7 +35,8 @@
                     display: flex;
                     flex-direction: column;
                     text-align: center;
-                    animation: move 4s infinite;
+                    animation: move 5s infinite;
+                    -webkit-animation: move 5s infinite;
                     height: 100%;
                     width: 100%;
                 }
@@ -44,8 +45,15 @@
                     padding: 0 .5rem;
                     margin-top: .4rem;
                     animation: white-out 5s infinite;
+                    -webkit-animation: white-out 5s infinite;
                     height: 100%;
                     width: 100%;
+                }
+
+                .blinking-text {
+                    animation: blink 1s infinite;
+                    right: 0;
+                    top: 0;
                 }
 
                 .one {
@@ -65,16 +73,22 @@
                 }
 
                 @keyframes move {
-                25% {
-                    transform: translatey(-2.6rem);
-                    opacity: 1;
+                    25% { transform: translatey(-2.6rem); }
+                    50% { transform: translatey(-5.6rem); }
+                    75% { transform: translatey(-8.6rem); }
                 }
-                50% {
-                    transform: translatey(-5.6rem);
+
+                @keyframes white-out {
+                    0% { opacity: 1; }
+                    5% { opacity: 1; }
+                    75% { opacity: 1; }
+                    90% { opacity: 0; }
                 }
-                75% {
-                    transform: translatey(-8.6rem);
-                }
+
+                @keyframes blink {
+                    0% { opacity: 1; }
+                    50% { opacity: 0; }
+                    100% { opacity: 1; }
                 }
 
             </style>
@@ -90,6 +104,7 @@
                     </div>
                 </div>
                 <text>");</text>
+                <text class="blinking-text">|</text>
             </body>
         </div>
     </foreignObject>

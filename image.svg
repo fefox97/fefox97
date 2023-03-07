@@ -61,7 +61,7 @@
                 }
 
                 .two {
-                    color: white;
+                    color: #5AFF15;
                 }
 
                 .three {
@@ -69,13 +69,22 @@
                 }
 
                 .four {
-                    color: #a9b0bd;
+                    color: #534DF9;
                 }
 
                 @keyframes move {
-                    25% { transform: translatey(-2.6rem); }
-                    50% { transform: translatey(-5.6rem); }
-                    75% { transform: translatey(-8.6rem); }
+                    25% { 
+                        transform: translatey(-2.6rem); 
+                        -webkit-transform: translatey(-2.6rem); 
+                        }
+                    50% { 
+                        transform: translatey(-5.6rem); 
+                        -webkit-transform: translatey(-5.6rem); 
+                        }
+                    75% { 
+                        transform: translatey(-8.6rem); 
+                        -webkit-transform: translatey(-8.6rem); 
+                    }
                 }
 
                 @keyframes white-out {
